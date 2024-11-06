@@ -2189,8 +2189,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 39,
-        "worldScrollY": 0,
+        "worldScrollX": 0,
+        "worldScrollY": 300,
         "zoom": 350,
         "sgbEnabled": false,
         "customHead": "",
@@ -2276,7 +2276,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": false,
+        "debuggerEnabled": true,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
