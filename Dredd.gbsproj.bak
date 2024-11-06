@@ -682,7 +682,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -709,8 +709,7 @@
                                     "collisionGroup": "1",
                                     "collisionMask": [
                                         "1"
-                                    ],
-                                    "__collapse": true
+                                    ]
                                 },
                                 "id": "40eeec30-f3ed-4a4c-a1df-20363621a9ab"
                             }
