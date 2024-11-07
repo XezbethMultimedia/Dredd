@@ -14279,9 +14279,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 160,
-        "worldScrollY": 100,
-        "zoom": 450,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

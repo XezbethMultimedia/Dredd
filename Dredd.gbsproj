@@ -14281,7 +14281,7 @@
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 100,
+        "zoom": 250,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -14366,7 +14366,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": false,
+        "debuggerEnabled": true,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
