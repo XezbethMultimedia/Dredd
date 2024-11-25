@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ef0cb694-062c-43ca-a6a3-1e6302cb8db4",
+  "name": "Color-Splash",
+  "symbol": "bg_color_splash",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Color-Splash.png",
+  "tileColors": ""
+}

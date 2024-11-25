@@ -1,0 +1,116 @@
+{
+  "_resourceType": "actor",
+  "id": "f66db6a4-3377-4dc3-afe4-c88a343dbcef",
+  "name": "Right Wall",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "00cdd2f5-7905-4610-9c8a-8f9038e5d15c",
+  "prefabId": "4142f98e-fb43-4d45-9910-17688df4e002",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "0ad845d5-32e3-4f8f-9fe3-3fbf74c3004e": {
+      "id": "0ad845d5-32e3-4f8f-9fe3-3fbf74c3004e",
+      "args": {
+        "actorId": "player",
+        "vectorX": "1",
+        "vectorY": "2"
+      }
+    },
+    "837412ad-806c-499c-b42c-58f0795c764e": {
+      "id": "837412ad-806c-499c-b42c-58f0795c764e",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 16
+          }
+        }
+      }
+    },
+    "18ba9705-90be-4c23-b38a-84aa2945f1c2": {
+      "id": "18ba9705-90be-4c23-b38a-84aa2945f1c2",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 49
+          }
+        }
+      }
+    },
+    "4ac4a24c-d65c-43f3-b445-0c29761a1226": {
+      "id": "4ac4a24c-d65c-43f3-b445-0c29761a1226",
+      "args": {
+        "text": [
+          "Main Hall"
+        ]
+      }
+    },
+    "4942e32c-0433-4092-bda9-b4fd97c87d78": {
+      "id": "4942e32c-0433-4092-bda9-b4fd97c87d78",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 36
+          }
+        }
+      }
+    },
+    "f3cfc1c7-9842-4ccf-a421-a885c4d37743": {
+      "id": "f3cfc1c7-9842-4ccf-a421-a885c4d37743",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 31
+          }
+        }
+      }
+    },
+    "84510e92-d90f-4435-911b-686237971350": {
+      "id": "84510e92-d90f-4435-911b-686237971350",
+      "args": {
+        "text": [
+          "Maintenance Hall"
+        ]
+      }
+    }
+  },
+  "symbol": "actor_6",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 38,
+  "y": 69,
+  "_index": 6
+}

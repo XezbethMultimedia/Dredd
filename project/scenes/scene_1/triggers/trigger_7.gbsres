@@ -1,0 +1,80 @@
+{
+  "_resourceType": "trigger",
+  "id": "837370ce-4ce0-40bf-ad08-b986a53f4edc",
+  "name": "",
+  "prefabId": "",
+  "x": 22,
+  "y": 36,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 16,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Room Switch",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": false
+            },
+            "id": "55f37d5a-73b5-48aa-b9f6-09f4c0620422"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "842cc576-6c27-4204-830f-2ef08bd000eb",
+              "__collapse": true
+            },
+            "id": "45e85c21-6682-43a6-803f-90ea94f18562"
+          }
+        ]
+      },
+      "id": "ee583d8d-40fb-41af-bc79-2f248213cbe4"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "speed": 4
+      },
+      "id": "34ba7536-2004-4a73-8a65-944c1b4d2947"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -3
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "f1044db5-3e3e-4772-88d0-06a651b1bcdd"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}

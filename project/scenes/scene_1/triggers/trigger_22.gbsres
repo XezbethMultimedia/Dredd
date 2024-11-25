@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "90b2952e-9714-47fc-93e1-48b8a4441458",
+  "name": "",
+  "prefabId": "",
+  "x": 29,
+  "y": 70,
+  "symbol": "trigger_21",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This door is\nclosed from the..",
+          "outside, it will\nopen at the end!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5c4cca94-481f-4357-8c89-246a89c9c683"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 29
+        },
+        "y": {
+          "type": "number",
+          "value": 69
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "ba78ef0b-82ea-462b-b204-72141134502e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 21
+}

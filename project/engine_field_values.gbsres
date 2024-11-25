@@ -3,7 +3,11 @@
   "engineFieldValues": [
     {
       "id": "fade_style",
-      "value": 0
+      "value": 1
+    },
+    {
+      "id": "INPUT_TOPDOWN_INTERACT",
+      "value": "INPUT_A"
     }
   ]
 }

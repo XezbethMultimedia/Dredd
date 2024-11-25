@@ -1,0 +1,164 @@
+{
+  "_resourceType": "actor",
+  "id": "29ec3053-3e3d-4541-97eb-f29082921bba",
+  "name": "Left Wall",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "00cdd2f5-7905-4610-9c8a-8f9038e5d15c",
+  "prefabId": "8da48c2d-05bb-41ec-908c-ec4169f54189",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "39a48be3-c00c-48d8-9bac-a5085145e965": {
+      "id": "39a48be3-c00c-48d8-9bac-a5085145e965",
+      "args": {
+        "actorId": "player",
+        "vectorX": "1",
+        "vectorY": "2"
+      }
+    },
+    "6d690cde-90dc-4aa1-a30c-f519cc0281df": {
+      "id": "6d690cde-90dc-4aa1-a30c-f519cc0281df",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 22
+          }
+        }
+      }
+    },
+    "1838e709-84a8-482b-8e53-efc6f8764c0a": {
+      "id": "1838e709-84a8-482b-8e53-efc6f8764c0a",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 41
+          }
+        }
+      }
+    },
+    "806f30da-e7b0-439d-a90f-c101dac1b646": {
+      "id": "806f30da-e7b0-439d-a90f-c101dac1b646",
+      "args": {
+        "text": [
+          "Flat Hall"
+        ]
+      }
+    },
+    "87946071-f164-4904-8925-ff21e654aa28": {
+      "id": "87946071-f164-4904-8925-ff21e654aa28",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 42
+          }
+        }
+      }
+    },
+    "c50211e2-968d-4817-9e1c-92ec3df96683": {
+      "id": "c50211e2-968d-4817-9e1c-92ec3df96683",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 23
+          }
+        }
+      }
+    },
+    "41a366c5-2ca7-4926-8863-90571154ed14": {
+      "id": "41a366c5-2ca7-4926-8863-90571154ed14",
+      "args": {
+        "text": [
+          "Main Hall"
+        ]
+      }
+    },
+    "ba7357ed-b077-4777-a3c2-c1f64fd335bb": {
+      "id": "ba7357ed-b077-4777-a3c2-c1f64fd335bb",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9
+          }
+        }
+      }
+    },
+    "2e0a3261-df47-429c-b93d-c925d1ea0f3e": {
+      "id": "2e0a3261-df47-429c-b93d-c925d1ea0f3e",
+      "args": {
+        "text": [
+          "Elevator Controls>\n< Lights Controls"
+        ]
+      }
+    },
+    "7f61da6f-c93b-4cd8-8b04-b3806a2737cd": {
+      "id": "7f61da6f-c93b-4cd8-8b04-b3806a2737cd",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 11
+          }
+        }
+      }
+    },
+    "9b54eaaa-d6fa-46e5-836e-f8ea06201102": {
+      "id": "9b54eaaa-d6fa-46e5-836e-f8ea06201102",
+      "args": {
+        "text": [
+          "The lights look\nfine!"
+        ]
+      }
+    }
+  },
+  "symbol": "actor_5",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 69,
+  "_index": 5
+}

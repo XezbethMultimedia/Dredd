@@ -1,0 +1,166 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "1247f735-67a8-48ae-aee2-67618c2ba359",
+  "name": "Enemy",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5e655bd0-b752-47b7-a400-7980d582c639",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "b306ccaf-74f6-4398-aea8-ff2b904401e5"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.1,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "aa8b576a-d3ce-45de-8443-15bc73adc50e"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Death",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "4734473a-9917-47bd-952c-625c01e7f9c6"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1.25,
+              "frames": 38,
+              "__collapse": false,
+              "units": "frames"
+            },
+            "id": "667841eb-75d9-4e37-b3d5-8394e5bf5fe1"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "142d1768-35c1-4536-881f-80adca4ca8bb"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Death",
+                    "loopAnim": false
+                  },
+                  "id": "2254e2a2-bc46-4c99-9aed-b2e43e523770"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -1
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false,
+                    "__collapse": false
+                  },
+                  "id": "9c7046fa-49db-4d3e-a80f-c4a3dda4f9f8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Death",
+                    "loopAnim": false
+                  },
+                  "id": "cabeb79d-7e71-495e-b62a-c8a29aa06679"
+                }
+              ]
+            },
+            "id": "5346f171-5015-4ae1-81fe-1229daf2c803"
+          }
+        ]
+      },
+      "id": "c9b77c9e-df5a-4d23-9ddc-c2386413f482"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "5a33746f-0eb8-4d69-a28e-e13b4d4ae722"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": []
+}

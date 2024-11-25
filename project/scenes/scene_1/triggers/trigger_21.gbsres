@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "b0995e67-212a-44de-9126-73e7ba1d101b",
+  "name": "",
+  "prefabId": "",
+  "x": 29,
+  "y": 19,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This Elevator is\nbroken...",
+          "You might want to\nfix it!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2378ec13-519b-4be7-8c2e-199ef51744de"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 29
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "0c9a3bcb-7963-4925-8416-e38297ee00ce"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 20
+}

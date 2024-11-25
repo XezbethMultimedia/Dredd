@@ -3,173 +3,28 @@
   "variables": [
     {
       "id": "0",
-      "name": "Door_Open",
-      "symbol": "var_door_open"
+      "name": "Room_No",
+      "symbol": "var_room_no_0"
     },
     {
-      "id": "6cbb4af2-2a0d-4671-b840-75a8dc203806__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp"
+      "id": "1",
+      "name": "Player_X",
+      "symbol": "var_player_x"
     },
     {
-      "id": "6cbb4af2-2a0d-4671-b840-75a8dc203806__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement"
+      "id": "2",
+      "name": "Player_Y",
+      "symbol": "var_player_y"
     },
     {
-      "id": "9c344870-31ec-4985-85c4-86d7a1c464eb__L0",
-      "name": "Player_HP",
-      "symbol": "var_player_hp"
+      "id": "1247f735-67a8-48ae-aee2-67618c2ba359__L0",
+      "name": "Health",
+      "symbol": "var_health"
     },
     {
-      "id": "2c81fa15-2841-49ab-907e-110bc9242c2b__L0",
-      "name": "Enemy_B_HP",
-      "symbol": "var_enemy_b_hp"
-    },
-    {
-      "id": "faa1eeb5-a8b7-403f-82bc-24ed20d95928__L0",
-      "name": "Enemy_C_HP",
-      "symbol": "var_enemy_c_hp"
-    },
-    {
-      "id": "9c9018b0-f444-4383-9245-a5017097de00__L0",
-      "name": "Player_HP",
-      "symbol": "var_player_hp_0"
-    },
-    {
-      "id": "4a8316b0-139d-4606-833a-abb312d8390a__L0",
-      "name": "Enemy_D_HP",
-      "symbol": "var_enemy_d_hp"
-    },
-    {
-      "id": "257b7940-fb20-49c1-81eb-e57f9c41ce15__L0",
-      "name": "Enemy_E_HP",
-      "symbol": "var_enemy_e_hp"
-    },
-    {
-      "id": "a90fa76d-1cbd-4daa-9652-41cb510498b9__L0",
-      "name": "Player_HP",
-      "symbol": "var_player_hp_1"
-    },
-    {
-      "id": "4beeefd4-ca3a-48e6-856e-64b82eefcdc4__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_0"
-    },
-    {
-      "id": "4beeefd4-ca3a-48e6-856e-64b82eefcdc4__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_0"
-    },
-    {
-      "id": "30d06255-681f-4588-959c-bb0385711bd4__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_1"
-    },
-    {
-      "id": "30d06255-681f-4588-959c-bb0385711bd4__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_1"
-    },
-    {
-      "id": "a724f00d-ba42-46f0-a8b6-36bc0e3b2a3c__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_2"
-    },
-    {
-      "id": "a724f00d-ba42-46f0-a8b6-36bc0e3b2a3c__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_2"
-    },
-    {
-      "id": "ed290d26-2c6d-4cd4-a2f7-cfeb54cd2caa__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_3"
-    },
-    {
-      "id": "ed290d26-2c6d-4cd4-a2f7-cfeb54cd2caa__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_3"
-    },
-    {
-      "id": "b23c7190-c4cd-4b75-87a5-82094bc83d02__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_4"
-    },
-    {
-      "id": "b23c7190-c4cd-4b75-87a5-82094bc83d02__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_4"
-    },
-    {
-      "id": "5b949031-1007-4a06-8b50-34aed791dba3__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_5"
-    },
-    {
-      "id": "5b949031-1007-4a06-8b50-34aed791dba3__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_5"
-    },
-    {
-      "id": "bd769234-5bbf-4c80-b20f-167722f401d3__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_6"
-    },
-    {
-      "id": "bd769234-5bbf-4c80-b20f-167722f401d3__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_6"
-    },
-    {
-      "id": "d13bbbbe-f8fe-49ac-b4d6-a13e8efd0cec__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_7"
-    },
-    {
-      "id": "d13bbbbe-f8fe-49ac-b4d6-a13e8efd0cec__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_7"
-    },
-    {
-      "id": "d707f298-3a65-441a-8090-ec4b32eff41b__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_8"
-    },
-    {
-      "id": "d707f298-3a65-441a-8090-ec4b32eff41b__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_8"
-    },
-    {
-      "id": "7a53cb89-796c-4816-8b5c-9a0c221faa81__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_9"
-    },
-    {
-      "id": "7a53cb89-796c-4816-8b5c-9a0c221faa81__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_9"
-    },
-    {
-      "id": "2203a1b9-d458-43db-a4a9-f36471983bba__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_10"
-    },
-    {
-      "id": "2203a1b9-d458-43db-a4a9-f36471983bba__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_10"
-    },
-    {
-      "id": "1e9f16a6-2342-449e-937c-b8732bfa17ff__L0",
-      "name": "Enemy_A_HP",
-      "symbol": "var_enemy_a_hp_11"
-    },
-    {
-      "id": "1e9f16a6-2342-449e-937c-b8732bfa17ff__L1",
-      "name": "Enemy_Movement",
-      "symbol": "var_enemy_movement_11"
+      "id": "bd8c1d77-93f1-4cf6-8235-d9c1647a656a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

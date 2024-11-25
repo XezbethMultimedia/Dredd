@@ -1,0 +1,11 @@
+{
+  "_resourceType": "palette",
+  "id": "5db264ca-85fb-4e6b-befa-dadb0ad8dfcf",
+  "name": "Enemy BG",
+  "colors": [
+    "ffe67b",
+    "d6ff21",
+    "5ade19",
+    "59df1d"
+  ]
+}

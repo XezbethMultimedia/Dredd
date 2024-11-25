@@ -1,0 +1,309 @@
+{
+  "_resourceType": "actor",
+  "id": "4b969683-8767-4f1d-8ce1-bdc45d82d1c7",
+  "name": "Top Wall",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "00cdd2f5-7905-4610-9c8a-8f9038e5d15c",
+  "prefabId": "413e9f23-3552-453f-83f2-29cc8aa2ca56",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "43d7ea19-5111-4285-b8f4-22d379f0e25f": {
+      "id": "43d7ea19-5111-4285-b8f4-22d379f0e25f",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 32
+          }
+        }
+      }
+    },
+    "9a26a043-49be-46f0-b1d0-24b6534a63f8": {
+      "id": "9a26a043-49be-46f0-b1d0-24b6534a63f8",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 57
+          }
+        }
+      }
+    },
+    "fb541fc1-6a85-4ad4-9763-fe1350623dcc": {
+      "id": "fb541fc1-6a85-4ad4-9763-fe1350623dcc",
+      "args": {
+        "text": [
+          "Main Hall"
+        ]
+      }
+    },
+    "76faa60b-bfbe-465b-8075-57265e8707b1": {
+      "id": "76faa60b-bfbe-465b-8075-57265e8707b1",
+      "args": {
+        "actorId": "player",
+        "vectorX": "1",
+        "vectorY": "2"
+      }
+    },
+    "1bf4c458-7ac2-4e2b-9744-9ff8f98dc6e1": {
+      "id": "1bf4c458-7ac2-4e2b-9744-9ff8f98dc6e1",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 21
+          }
+        }
+      }
+    },
+    "25f6802b-5167-49a3-a0f9-3bf56e55dcd1": {
+      "id": "25f6802b-5167-49a3-a0f9-3bf56e55dcd1",
+      "args": {
+        "text": [
+          "Elevator"
+        ]
+      }
+    },
+    "71937e58-1cb9-4170-836d-c8b5a3e19491": {
+      "id": "71937e58-1cb9-4170-836d-c8b5a3e19491",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 12
+          }
+        }
+      }
+    },
+    "68561f77-f99e-4be9-b420-040b33922846": {
+      "id": "68561f77-f99e-4be9-b420-040b33922846",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 57
+          }
+        }
+      }
+    },
+    "42314ac4-1e38-4b69-9ea4-1cbd4320b52d": {
+      "id": "42314ac4-1e38-4b69-9ea4-1cbd4320b52d",
+      "args": {
+        "text": [
+          "Flat Hall"
+        ]
+      }
+    },
+    "e78c4b7d-eae3-40b4-aeb5-951fcf46c7a8": {
+      "id": "e78c4b7d-eae3-40b4-aeb5-951fcf46c7a8",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 39
+          }
+        }
+      }
+    },
+    "3c5206cb-554f-4018-84aa-0050d1da559e": {
+      "id": "3c5206cb-554f-4018-84aa-0050d1da559e",
+      "args": {
+        "text": [
+          "Mess Hall"
+        ]
+      }
+    },
+    "7233dd18-3209-4838-9781-a322c894311f": {
+      "id": "7233dd18-3209-4838-9781-a322c894311f",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 52
+          }
+        }
+      }
+    },
+    "cf2b40a9-1e1f-4f24-87d0-1631fd5cb967": {
+      "id": "cf2b40a9-1e1f-4f24-87d0-1631fd5cb967",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 39
+          }
+        }
+      }
+    },
+    "f778dc35-6cb6-4433-ab5c-7b1585c37223": {
+      "id": "f778dc35-6cb6-4433-ab5c-7b1585c37223",
+      "args": {
+        "text": [
+          "Maintenance Hall"
+        ]
+      }
+    },
+    "b0bb7cc0-fe66-4bbb-9caa-02df775652ad": {
+      "id": "b0bb7cc0-fe66-4bbb-9caa-02df775652ad",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 21
+          }
+        }
+      }
+    },
+    "05f7433e-348f-4318-8c1f-0b050887ad14": {
+      "id": "05f7433e-348f-4318-8c1f-0b050887ad14",
+      "args": {
+        "text": [
+          "Elevator Room\nDO NOT ENTER!"
+        ]
+      }
+    },
+    "7a450e6e-58cf-4e99-9b12-a935e190b73c": {
+      "id": "7a450e6e-58cf-4e99-9b12-a935e190b73c",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 26
+          }
+        }
+      }
+    },
+    "6a646722-65dd-4e31-bdeb-378ddedf6755": {
+      "id": "6a646722-65dd-4e31-bdeb-378ddedf6755",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 21
+          }
+        }
+      }
+    },
+    "7cf56a8d-f00f-4f29-bd64-19b6a430c94e": {
+      "id": "7cf56a8d-f00f-4f29-bd64-19b6a430c94e",
+      "args": {
+        "text": [
+          "Elevator out of\norder!"
+        ]
+      }
+    },
+    "a2b7f9e1-6475-49a8-b01f-0858ec0a5243": {
+      "id": "a2b7f9e1-6475-49a8-b01f-0858ec0a5243",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 42
+          }
+        }
+      }
+    },
+    "82b28711-7d62-4359-b5ff-ef07412566a7": {
+      "id": "82b28711-7d62-4359-b5ff-ef07412566a7",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        }
+      }
+    },
+    "a795446f-d130-41fc-9e00-1bb9a4ded7f6": {
+      "id": "a795446f-d130-41fc-9e00-1bb9a4ded7f6",
+      "args": {
+        "text": [
+          "This is a great\nplace to hide...",
+          "a body!"
+        ]
+      }
+    }
+  },
+  "symbol": "actor_3",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 29,
+  "y": 55,
+  "_index": 3
+}

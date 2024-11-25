@@ -1,0 +1,91 @@
+{
+  "_resourceType": "trigger",
+  "id": "edfe379f-d893-4249-926e-9629314fe7e7",
+  "name": "",
+  "prefabId": "",
+  "x": 42,
+  "y": 53,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {},
+  "width": 16,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "b8543d85-b140-4306-a7a4-a7fa5b4fbf2a"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Room Switch",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "b3a27d32-a88c-486a-a372-ca0b34678b47"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "842cc576-6c27-4204-830f-2ef08bd000eb",
+              "__collapse": true
+            },
+            "id": "1778492a-0a19-4ed6-956d-ed6237c59df3"
+          }
+        ]
+      },
+      "id": "90830d71-dc5d-45b9-b2ff-ad0189baea11"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 40
+        },
+        "y": {
+          "type": "number",
+          "value": 54
+        },
+        "speed": 4
+      },
+      "id": "58090d6b-0422-4c93-8f32-7d5e05a10c04"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "27f76634-dc50-434d-af3a-24ed719ece78"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 18
+}
