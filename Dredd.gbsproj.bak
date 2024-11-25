@@ -14410,7 +14410,7 @@
             "id": "de55b552-f84f-4d7d-9edf-addc6991961b",
             "symbol": "scene_1",
             "x": 752,
-            "y": 30,
+            "y": 32,
             "actors": [],
             "triggers": [
                 {
@@ -14479,7 +14479,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "839f7c2b-6c63-4951-8566-3881ef37b478"
         },
         {
             "name": "Scene 4",
@@ -18885,7 +18886,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "839f7c2b-6c63-4951-8566-3881ef37b478"
         },
         {
             "name": "Floor 2",
@@ -23291,7 +23293,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "839f7c2b-6c63-4951-8566-3881ef37b478"
         },
         {
             "name": "Scene 6",
@@ -27634,7 +27637,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "839f7c2b-6c63-4951-8566-3881ef37b478"
         }
     ],
     "backgrounds": [
@@ -27670,7 +27674,9 @@
             "height": 72,
             "imageWidth": 480,
             "imageHeight": 576,
-            "filename": "FloorFive.png"
+            "filename": "FloorFive.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "4bd38d02-7840-4774-955a-d3527e5fae55",
@@ -27692,7 +27698,9 @@
             "height": 72,
             "imageWidth": 480,
             "imageHeight": 576,
-            "filename": "FloorTwoToFour.png"
+            "filename": "FloorTwoToFour.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -28090,6 +28098,26 @@
                 1
             ],
             "autoColor": false
+        },
+        {
+            "id": "d5b9ff8c-7663-4a66-bd40-88c3d594e0cf",
+            "name": "TitleScreenColored-export",
+            "symbol": "bg_titlescreencolored_expor",
+            "width": 40,
+            "height": 36,
+            "imageWidth": 320,
+            "imageHeight": 288,
+            "filename": "TitleScreenColored-export.png"
+        },
+        {
+            "id": "7ed9aea4-a607-4138-805d-946c19657efa",
+            "name": "TitleScreenColored",
+            "symbol": "bg_titlescreencolored",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "TitleScreenColored.png"
         }
     ],
     "spriteSheets": [
@@ -30610,8 +30638,8 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 31,
-        "zoom": 75,
+        "worldScrollY": 0,
+        "zoom": 175,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

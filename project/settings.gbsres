@@ -1,0 +1,89 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "63d379eb-877e-4261-b378-184cad319162",
+  "startX": 6,
+  "startY": 11,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "up",
+  "showCollisionExtraTiles": false,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "default-bg-1",
+    "1471d052-6486-443b-aa48-450d1677551c",
+    "63a3e6e9-de11-4bab-bfba-6700de7af1c8",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg",
+    "default-ui"
+  ],
+  "defaultSpritePaletteIds": [
+    "default-bg-1",
+    "c192073c-ce48-4237-94b9-4d59bb1a599a",
+    "980a95b2-34e9-4780-ae04-8eba2eca763d",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "color",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {},
+  "scriptEventDefaultPresets": {}
+}

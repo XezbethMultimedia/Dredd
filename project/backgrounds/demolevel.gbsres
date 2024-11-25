@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bebfb9a0-10b4-4023-aa54-d743115931dd",
+  "name": "DemoLevel",
+  "symbol": "bg_demolevel",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "DemoLevel.png",
+  "tileColors": "",
+  "autoColor": false
+}

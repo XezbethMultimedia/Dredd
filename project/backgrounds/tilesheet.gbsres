@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5d597f72-8b96-43e2-b074-98407998c307",
+  "name": "TileSheet",
+  "symbol": "bg_tilesheet",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TileSheet.png",
+  "tileColors": "",
+  "autoColor": false
+}

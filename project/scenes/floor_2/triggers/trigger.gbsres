@@ -1,0 +1,66 @@
+{
+  "_resourceType": "trigger",
+  "id": "05fd9c8f-d441-4afc-94c2-08ad0e436bb2",
+  "_index": 0,
+  "symbol": "trigger_3",
+  "prefabId": "",
+  "name": "",
+  "x": 21,
+  "y": 23,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You exited the\nroom!"
+              ],
+              "avatarId": ""
+            },
+            "id": "92e89bb8-e35b-4f5c-b753-1a71395119fd"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b0472883-4a47-4a16-9254-2d38725d1339",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 30
+              },
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "50d613b6-e76b-4976-a12f-1b121943064e"
+          }
+        ],
+        "false": []
+      },
+      "id": "eaa58769-9e26-418e-85f2-d934b984cffa"
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d5b9ff8c-7663-4a66-bd40-88c3d594e0cf",
+  "name": "TitleScreenColored-export",
+  "symbol": "bg_titlescreencolored_expor",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "TitleScreenColored-export.png",
+  "tileColors": "",
+  "autoColor": false
+}

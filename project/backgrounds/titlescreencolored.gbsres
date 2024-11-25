@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7ed9aea4-a607-4138-805d-946c19657efa",
+  "name": "TitleScreenColored",
+  "symbol": "bg_titlescreencolored",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TitleScreenColored.png",
+  "tileColors": "",
+  "autoColor": false
+}

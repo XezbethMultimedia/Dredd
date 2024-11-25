@@ -1,0 +1,198 @@
+{
+  "_resourceType": "scene",
+  "id": "a90fa76d-1cbd-4daa-9652-41cb510498b9",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Floor 1",
+  "symbol": "scene_3",
+  "x": 264,
+  "y": 32,
+  "width": 60,
+  "height": 72,
+  "backgroundId": "4bd38d02-7840-4774-955a-d3527e5fae55",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "839f7c2b-6c63-4951-8566-3881ef37b478",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "6894afbe-1748-49cb-aaa9-6305d0bb95ea"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "5a590c07-4121-4688-b6f0-8863cffaea57"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "eabe5a03-68cc-4596-8eef-be1debe6e208"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "spriteSheetId": "0d95ac53-0358-4f67-ab09-c6bc97b6bfb1",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "player",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": true
+            },
+            "id": "f2a23813-e81b-43b2-a6cb-9e7a51ad78c6"
+          }
+        ]
+      },
+      "id": "287cc1b4-08a1-4e6f-a574-5cd1f490ec97"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "928c2614-aad1-4734-bd86-df7c91b1ab9d",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": true
+      },
+      "id": "67c99000-0dd4-424d-aa46-6534664cf2e8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "dc483fe4-ab50-4d7e-b044-aff0bf6d89a3"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "L0",
+        "__collapse": true
+      },
+      "id": "d0769c9a-178a-47a2-87f9-3c5f0e48b712"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "default-bg-1",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": true
+      },
+      "id": "a959c513-b53a-4f51-97a1-e008eedc6a38"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You died!"
+              ],
+              "avatarId": ""
+            },
+            "id": "f051c4c6-3635-46b1-93bd-d7c1d12badcd"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "63d379eb-877e-4261-b378-184cad319162",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "441488a4-1286-4d03-b64c-30a0360dbafa"
+          }
+        ],
+        "false": []
+      },
+      "id": "955f819d-5e28-4959-bbff-e74970f13f2b"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003+0fe+006+0fe+006+0fe+006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!003+0f4+00c+0f4+003+0f!00c+0f!003+0f4+00c+0f5+009+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f2+009+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f5+006+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f5+006+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0fd+007+0f!003+0f!00c+0f!003+0fc+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0fc+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!004+0f4+003+0f!00c+0f!003+0f4+00c+0f4+00b+0f!004+0f!006+0f!00c+0f!006+0f!00c+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!00e+0f!004+0f!006+0f6+002+0f6+006+0f9+004+0f!00e+0f!004+0f!006+0f6+002+0f6+006+0f9+004+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!00c+0f!00e+0f!004+0f!006+0f!00c+0f8+00c+0f!00e+0f!004+0f4+003+0f!00f+0f2+00f+0f4+00b+0f!006+0f2+003+0f!00f+0f2+0012+0f!00b+0f!006+0f2+003+0f!00f+0f2+0012+0f!00b+0f!004+0f4+003+0f!00f+0f2+00f+0f4+00b+0f!004+0f!006+0f!0020+0f!003+0fc+004+0f!006+0f!0020+0f!003+0f4+006+0f2+004+0f8+00f+0f2+00f+0f8+006+0f2+006+0f3+0012+0f2+0012+0f2+009+0f2+006+0f3+0012+0f2+0012+0f2+009+0f2+004+0f8+00f+0f2+00f+0f8+00c+0f!006+0f!00c+0f8+00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f9+004+0f!006+0f!00c+0f!006+0f9+004+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f9+004+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!00c+0f!00e+0f!004+0f!003+0f4+00c+0f8+00c+0f!00e+0f!004+0f!003+0f!0012+0f2+00f+0f!00e+0f!004+0f!003+0f!0012+0f2+00f+0f!00e+0f!004+0f!003+0f!0012+0f2+00f+0f!00e+0f!004+0f5+0012+0f2+00f+0f4+00b+0f!002f+0fd+002f+0f2+009+0f2+004+0f5+0012+0f2+00f+0f5+009+0f2+004+0f!003+0f!0012+0f2+00f+0f!003+0f!009+0f2+004+0f!003+0f!0012+0f2+00f+0f!003+0f!009+0f2+004+0f!003+0f!0012+0f2+00f+0f!003+0f4+00c+0f!003+0f4+00c+0f8+00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f9+004+0f!006+0f6+002+0f6+006+0f9+004+0f!006+0f9+004+0f!006+0f6+002+0f6+006+0f9+004+0f!006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!003+0f4+00c+0f4+003+0f!00c+0f!003+0f4+00c+0f5+009+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f2+009+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f5+006+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f5+006+0f2+007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0fd+007+0f!003+0f!00c+0f!003+0fc+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0fc+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!007+0f!003+0f!00c+0f!003+0f!009+0f2+007+0f!00b+0f!004+0f4+003+0f!00c+0f!003+0f4+00c+0f4+00b+0f!004+0f!006+0f!00c+0f!006+0f!00c+0f!00e+0f!004+0f!006+0f!00c+0f!006+0f!006+0f2+004+0f!00e+0f6+006+0fe+006+0fe+003+"
+}

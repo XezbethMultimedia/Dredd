@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ea2b2462-e800-4294-b813-08ccea5c8358",
+  "name": "FloorFive",
+  "symbol": "bg_floorfive",
+  "width": 60,
+  "height": 72,
+  "imageWidth": 480,
+  "imageHeight": 576,
+  "filename": "FloorFive.png",
+  "tileColors": "",
+  "autoColor": false
+}
