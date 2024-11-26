@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 64,
-  "y": 248,
+  "y": 416,
   "script": [
     {
       "command": "EVENT_PALETTE_SET_BACKGROUND",

@@ -25,7 +25,7 @@
     "EVENT_ACTOR_SET_POSITION",
     "EVENT_IF::EVENT_IF_VALUE"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

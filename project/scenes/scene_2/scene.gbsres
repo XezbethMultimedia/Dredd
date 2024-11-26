@@ -404,7 +404,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e6b99bdf-38a7-491e-8e0f-844fa4f149e8",
+        "sceneId": "e4765a6d-9b17-47ed-b9d3-4a6286f13b3b",
         "x": {
           "type": "number",
           "value": 0
@@ -415,7 +415,7 @@
         },
         "direction": "up",
         "fadeSpeed": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "6d5bd19b-cca2-4472-8351-b0f779993ffa"
     }

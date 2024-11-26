@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cb5c57dd-454d-444d-950f-6a79c205a291",
+  "name": "CopyrightSplash",
+  "symbol": "bg_copyrightsplash",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "CopyrightSplash.png",
+  "tileColors": ""
+}
