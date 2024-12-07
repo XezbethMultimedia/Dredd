@@ -131,6 +131,72 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "",
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "2497ad40-65d5-4b54-af08-fe5fe4429840"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "94e5cadb-05e6-4a90-99e7-9374fe85eab1"
+                }
+              ],
+              "false": []
+            },
+            "id": "d12c12f9-13a8-4022-8690-39eade2d3bde"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true,
               "__collapse": true
             },
             "children": {
@@ -180,7 +246,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

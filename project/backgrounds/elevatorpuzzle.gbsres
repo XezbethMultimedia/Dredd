@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "cb5c57dd-454d-444d-950f-6a79c205a291",
-  "name": "CopyrightSplash",
-  "symbol": "bg_copyrightsplash",
+  "id": "11285f6b-071d-42b2-8359-5267fdd45624",
+  "name": "ElevatorPuzzle",
+  "symbol": "bg_elevatorpuzzle",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "CopyrightSplash.png",
+  "filename": "ElevatorPuzzle.png",
   "tileColors": "",
   "autoColor": false
 }

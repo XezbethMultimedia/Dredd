@@ -16,8 +16,122 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_7",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "221e05b7-f23c-4c90-a991-7b81ae6fa536"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "9ffc463f-0c99-4265-8c6c-655006e33a11",
+        "__collapse": true
+      },
+      "id": "32d74bc4-aea0-4fda-864c-47544ab7b3c8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "183e3dc8-cab3-47cd-b371-18db034725c7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "48989236-14f0-4e47-92a5-a04dd712f7a3"
+    }
+  ],
   "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "9238b296-4c51-437b-baed-3029148b6600"
+                },
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "9dcbb991-72b6-42b9-8cd0-87d04902f5b3",
+                    "__collapse": true
+                  },
+                  "id": "52e23913-7b2c-446b-a27f-79121942c88b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c12909b0-2ebb-455a-ada9-111a93eb556f"
+                }
+              ],
+              "false": []
+            },
+            "id": "d2bc3c36-64f3-4ce0-a7cc-98d1bab36d0b"
+          }
+        ],
+        "false": []
+      },
+      "id": "3568d815-1fbc-4790-951e-4ef8970e4f69"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -42,14 +156,15 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__label": "Move"
+                    "__label": "Move",
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -1071,7 +1186,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

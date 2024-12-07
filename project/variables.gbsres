@@ -17,14 +17,54 @@
       "symbol": "var_player_y"
     },
     {
+      "id": "3",
+      "name": "NoOfEnemies",
+      "symbol": "var_noofenemies"
+    },
+    {
       "id": "1247f735-67a8-48ae-aee2-67618c2ba359__L0",
-      "name": "Health",
-      "symbol": "var_health"
+      "name": "AliveCount",
+      "symbol": "var_alivecount"
     },
     {
       "id": "bd8c1d77-93f1-4cf6-8235-d9c1647a656a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "842cc576-6c27-4204-830f-2ef08bd000eb__L0",
+      "name": "Checked",
+      "symbol": "var_checked"
+    },
+    {
+      "id": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c__L0",
+      "name": "Left",
+      "symbol": "var_left_0"
+    },
+    {
+      "id": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c__L1",
+      "name": "Up",
+      "symbol": "var_up"
+    },
+    {
+      "id": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c__L2",
+      "name": "Down",
+      "symbol": "var_down"
+    },
+    {
+      "id": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c__L3",
+      "name": "Right",
+      "symbol": "var_right"
+    },
+    {
+      "id": "4b4cfd14-4322-4cfe-a9da-8b508f892a0c__L4",
+      "name": "Total",
+      "symbol": "var_total"
+    },
+    {
+      "id": "4",
+      "name": "Total",
+      "symbol": "var_total_0"
     }
   ]
 }

@@ -11,21 +11,17 @@
   "persistent": false,
   "collisionGroup": "1",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "b306ccaf-74f6-4398-aea8-ff2b904401e5"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "3",
+        "__collapse": true
+      },
+      "id": "33675da9-e935-42d9-ba32-adeb43be5b10"
+    },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {

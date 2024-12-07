@@ -149,6 +149,37 @@
           "The lights look\nfine!"
         ]
       }
+    },
+    "d12c12f9-13a8-4022-8690-39eade2d3bde": {
+      "id": "d12c12f9-13a8-4022-8690-39eade2d3bde",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 7
+          }
+        }
+      }
+    },
+    "2497ad40-65d5-4b54-af08-fe5fe4429840": {
+      "id": "2497ad40-65d5-4b54-af08-fe5fe4429840",
+      "args": {
+        "text": [
+          "This doesn't look\nright!",
+          "Lets fix that..."
+        ]
+      }
+    },
+    "94e5cadb-05e6-4a90-99e7-9374fe85eab1": {
+      "id": "94e5cadb-05e6-4a90-99e7-9374fe85eab1",
+      "args": {
+        "direction": "up"
+      }
     }
   },
   "symbol": "actor_5",
